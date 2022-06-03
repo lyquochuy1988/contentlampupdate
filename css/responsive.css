@@ -1,0 +1,120 @@
+/* tablet and mobile */
+
+@media screen and (max-width: 1023px) {}
+
+
+/* Ipad */
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: 100%;
+    }
+    td.content-lamp {
+        font-size: 20px;
+    }
+    .content-lamp h1 {
+        font-size: 49px;
+    }
+    .font-37 {
+        font-size: 26px;
+    }
+    .font-48 {
+        font-size: 30px;
+    }
+    .font-35 {
+        font-size: 30px;
+    }
+    .link-bottoms li {
+        font-size: 20px;
+    }
+    /* how to use page */
+    .font-27 {
+        font-size: 22px;
+    }
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 739px) {
+    td.content-lamp {
+        padding: 20px 16px;
+    }
+    .content-lamp h1 {
+        font-size: 40px;
+    }
+    .link-bottoms li {
+        font-size: 18px;
+    }
+}
+
+
+/* Small Mobile */
+
+@media screen and (max-width: 550px) {
+    td.content-lamp {
+        font-size: 18px;
+    }
+    .content-lamp h1 {
+        font-size: 32px;
+    }
+    .font-37 {
+        font-size: 22px;
+    }
+    .font-48 {
+        font-size: 26px;
+    }
+    .font-35 {
+        font-size: 26px;
+    }
+    .link-bottoms li {
+        font-size: 16px;
+    }
+    /* how to use page */
+    .font-27 {
+        font-size: 20px;
+    }
+    .font-21 {
+        font-size: 18px;
+    }
+    td.content-lamp {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    td.content-lamp {
+        font-size: 18px;
+    }
+    .content-lamp h1 {
+        font-size: 28px;
+    }
+    .font-37 {
+        font-size: 20px;
+    }
+    .font-48 {
+        font-size: 22px;
+    }
+    .font-35 {
+        font-size: 22px;
+    }
+    .link-bottoms li {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .content-lamp h1 {
+        font-size: 24px;
+    }
+    /* how to use page */
+    td.content-lamp {
+        font-size: 17px;
+    }
+    .font-27 {
+        font-size: 18px;
+    }
+    .font-21 {
+        font-size: 16px;
+    }
+}

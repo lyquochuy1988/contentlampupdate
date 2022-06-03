@@ -1,0 +1,472 @@
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../webfonts/fa-brands-400.eot");
+    src: url("../webfonts/fa-brands-400d41d.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+body {
+    margin: 0;
+}
+
+.fab {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400;
+}
+
+table {
+    border-spacing: 0;
+}
+
+td {
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+.main {
+    background-color: #ffffff;
+    margin: 0;
+    width: 100%;
+    max-width: 1200px;
+    border-spacing: 0;
+    font-family: Rockwell, Helvetica, Sans-Serif;
+    /* color: #4a4a4a; */
+}
+
+td.content-lamp {
+    font-size: 24px;
+    text-align: left;
+    padding: 20px 30px;
+}
+
+.content-lamp h1 {
+    font-size: 64px;
+}
+
+.blue-color {
+    color: rgb(53, 113, 202);
+}
+
+.font-48 {
+    font-size: 48px;
+}
+
+.font-37 {
+    font-size: 37px;
+}
+
+.font-35 {
+    font-size: 35px;
+}
+
+.font-27 {
+    font-size: 27px;
+}
+
+.font-21 {
+    font-size: 21px;
+}
+
+.font-weight {
+    font-weight: bold;
+}
+
+
+/* four columns */
+
+.wrap-four {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+}
+
+.box-content {
+    width: 100%;
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding-bottom: 10px;
+}
+
+.border-box {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 212px;
+    height: 212px;
+    background: url(../images/shadow.png) no-repeat right bottom;
+}
+
+@media screen and (max-width: 960px) {
+    .box-content {
+        width: unset;
+        max-width: unset;
+        flex: unset;
+        margin-right: 10px;
+    }
+}
+
+
+/* two columns */
+
+.wrap-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0 24px 0;
+}
+
+.box-two {
+    padding-bottom: 26px;
+}
+
+.content-two-col {
+    text-align: center;
+}
+
+.font-13 {
+    font-size: 13px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.link-bottoms {
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.link-bottoms li {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.padding-tb {
+    padding: 50px 0;
+}
+
+@media screen and (max-device-width: 800px),
+screen and (max-width: 800px) {}
+
+
+/*  how to use page */
+
+ol.font-21 li {
+    padding-bottom: 22px;
+}
+
+.padding-small {
+    padding: 10px 0;
+}
+
+.padding-middle {
+    padding: 26px 0;
+}
+
+
+/* menu header */
+
+.main-menu {
+    display: block;
+    width: 100%;
+    background: rgb(53, 113, 202);
+    line-height: 1.6em;
+    font-weight: 400;
+    position: relative;
+    margin: 0 auto;
+    z-index: 99;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+
+/*Strip the ul of padding and list styling*/
+
+.main-menu ul {
+    list-style-type: none;
+    width: 100%;
+    background: white;
+    box-shadow: inset 0px -1px 0px #E4E4E7;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*Create a horizontal list with spacing*/
+
+
+/*Style for menu links*/
+
+.main-menu li a {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1rem;
+    letter-spacing: -0.41px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.main-menu .menu-links {
+    flex-grow: 1;
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.main-menu .menu-links li a.button {
+    color: white;
+    display: inline-flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.main-menu .menu-links li a {
+    color: #8F92A1;
+}
+
+.main-menu .menu-links li.active {
+    color: rgb(53, 113, 202);
+}
+
+.main-menu .menu-logo {
+    min-width: 180px;
+    display: flex;
+    align-items: center;
+}
+
+.main-menu .menu-logo a,
+.main-menu .menu-logo img {
+    display: flex;
+}
+
+.main-menu .topbar {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+
+.main-menu .topbar .mobile-logo {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-menu .show-menu span.mobile-logo a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Hover state for top level links*/
+
+.main-menu li:hover a {
+    color: rgb(53, 113, 202);
+}
+
+
+/*Style for dropdown links*/
+
+.main-menu li:hover ul a {
+    background: #f3f3f3;
+    color: rgb(53, 113, 202);
+    height: 40px;
+    line-height: 40px;
+}
+
+
+/*Hover state for dropdown links*/
+
+.main-menu li:hover .main-menu ul a:hover {
+    color: rgb(53, 113, 202);
+}
+
+
+/*Hide dropdown links until they are needed*/
+
+.main-menu li ul {
+    display: none;
+}
+
+
+/*Make dropdown links vertical*/
+
+.main-menu li ul li {
+    display: block;
+    float: none;
+}
+
+
+/*Prevent text wrapping*/
+
+.main-menu li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+
+
+/*Style 'show menu' label button and hide it by default*/
+
+.main-menu .show-menu {
+    text-decoration: none;
+    color: rgb(53, 113, 202);
+    background: white;
+    display: none;
+    cursor: pointer;
+}
+
+.logo a {
+    color: rgb(53, 113, 202);
+}
+
+
+/*Hide checkbox*/
+
+.main-menu input[type=checkbox] {
+    display: none;
+}
+
+
+/*Show menu when invisible checkbox is checked*/
+
+.main-menu input[type=checkbox]:checked~#menu {
+    display: block;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+
+/*Responsive Styles*/
+
+@media screen and (max-width: 1048px) {
+    .main-menu .lines {
+        border-bottom: 15px double #092443;
+        border-top: 5px solid #092443;
+        content: "";
+        height: 5px;
+        width: 20px;
+        padding-right: 15px;
+        float: right;
+    }
+    /*Make dropdown links appear inline*/
+    .main-menu {
+        /*Create vertical spacing*/
+        /*Make all menu links full width*/
+    }
+    .main-menu .menu-links {
+        display: block;
+        justify-content: center;
+    }
+    .main-menu li.menu-logo {
+        display: none;
+    }
+    .main-menu ul {
+        position: static;
+        display: none;
+    }
+    .main-menu li {
+        margin-bottom: 1px;
+    }
+    .main-menu li button {
+        margin-top: 1rem;
+    }
+    /*Display 'show menu' link*/
+    .main-menu .show-menu {
+        display: block;
+    }
+    body .main-menu .menu-links li a {
+        font-size: 22px;
+    }
+}
+
+.fa-google-play:before {
+    content: "\f3ab";
+}
+
+.bt-primary.shaded {
+    background: #1B36B9;
+    box-shadow: 0px 80px 80px rgb(27 54 185 / 15%), 0px 41.7776px 33.4221px rgb(27 54 185 / 11%), 0px 22.3363px 17.869px rgb(27 54 185 / 9%), 0px 12.5216px 10.0172px rgb(27 54 185 / 8%), 0px 6.6501px 5.32008px rgb(27 54 185 / 6%), 0px 2.76726px 2.21381px rgb(27 54 185 / 4%);
+}
+
+.bt {
+    cursor: pointer;
+    border-radius: 1em;
+    border: none;
+}
+
+.bt i {
+    margin-right: 15px;
+}
+
+.bt span {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-weight: 700;
+}
+
+.bt span small {
+    font-weight: 300 !important;
+}
+
+ul#menu {
+    padding-left: 0;
+    margin: 0;
+}
+
+@media (min-width: 1200px) {
+    .main-menu .logo {
+        padding-left: 45px;
+    }
+    .main-menu .menu-links {
+        padding-right: 60px;
+    }
+}
+
+@media (min-width: 992px) {
+    .main-menu .menu-links li a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 767px) {
+    .main-menu .menu-links li {
+        margin-top: 15px;
+    }
+}
